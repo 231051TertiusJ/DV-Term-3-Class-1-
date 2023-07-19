@@ -1,0 +1,73 @@
+
+
+/* ------------------------------------------ */
+/* Global Styles */
+
+/* Fonts */
+h1,h2,h3,h4,h5,h6 {
+    font-family: '',;
+}
+
+p {
+    font-family: '',;
+    font-size: 16px;
+}
+
+/* Spacing */
+
+.full-height {
+    height: 100vh;
+    /* Takes screen size in account. Percentages */
+}
+
+/* ------------------------------------------ */
+/* Components */
+
+button {
+    border: none;
+    padding: 16px 20px;
+    /* First top+Bottem second=right+left */
+    border-radius: 8px;
+    background-color: #18382B;
+    font-family: '',;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+/* ------------------------------------------ */
+/* Bootstrap Components overides */
+
+.carousel-item {
+    background-color: #e6f2e9;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: auto;
+    right: auto;
+    left: 24px;
+    bottom: 24px;
+    width: auto;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev {
+    left: 84px;
+}
+
+
+
+
+
+
+/* ------------------------------------------ */
+/* Homepage */
+
+.hero-image {
+    height: 90vh;
+    position: relative;
+    bottom: -100px;
+}
